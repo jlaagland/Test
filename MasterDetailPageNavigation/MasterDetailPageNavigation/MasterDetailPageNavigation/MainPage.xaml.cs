@@ -16,10 +16,10 @@ namespace MasterDetailPageNavigation
             Detail = new NavigationPage(new MaterialsPage());
             masterPage.ListView.ItemSelected += OnItemSelected;
 
-//            if (Device.OS == TargetPlatform.Windows)
-//            {
-//                Master.Icon = "swap.png";
-//            }
+            if (Device.OS == TargetPlatform.Windows)
+            {
+                Master.Icon = "swap.png";
+            }
         }
 
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
@@ -31,6 +31,17 @@ namespace MasterDetailPageNavigation
                 masterPage.ListView.SelectedItem = null;
                 IsPresented = false;
             }
+        }
+
+        void NavigationPage_Appearing(object sender, System.EventArgs e)
+        {
+            NaviPage.Effects.Add(new ShadowEffect()
+            {
+                Radius = 15,
+                DistanceX = -20,
+                DistanceY = 0,
+                Color = Color.Black
+            });
         }
     }
 }

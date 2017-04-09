@@ -63,6 +63,7 @@
     <Compile Include="MaterialsPage.xaml.cs">
       <DependentUpon>MaterialsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ShadowEffect.cs" />
     <Compile Include="PrivacyPage.xaml.cs">
       <DependentUpon>PrivacyPage.xaml</DependentUpon>
     </Compile>

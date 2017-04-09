@@ -21,49 +21,49 @@ namespace MasterDetailPageNavigation
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Materials",
-                IconSource = "tab_feed.png",
+                IconSource = "materials.png",
                 TargetType = typeof(MaterialsPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Suppliers",
-                IconSource = "tab_feed.png",
+                IconSource = "factory.png",
                 TargetType = typeof(SuppliersPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Defects",
-                IconSource = "tab_feed.png",
+                IconSource = "defects.png",
                 TargetType = typeof(DefectsPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Process Cards",
-                IconSource = "tab_feed.png",
+                IconSource = "processcard.png",
                 TargetType = typeof(ProcessCardsPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
-                Title = "Tools",
-                IconSource = "tab_feed.png",
+                Title = "Calculations",
+                IconSource = "formula.png",
                 TargetType = typeof(ToolsPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Privacy",
-                IconSource = "tab_feed.png",
+                IconSource = "privacy.png",
                 TargetType = typeof(PrivacyPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Disclaimer",
-                IconSource = "tab_feed.png",
+                IconSource = "disclaimer.png",
                 TargetType = typeof(DisclaimerPage)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "About",
-                IconSource = "tab_about.png",
+                IconSource = "about.png",
                 TargetType = typeof(AboutPage)
             });
             listView.ItemsSource = masterPageItems;

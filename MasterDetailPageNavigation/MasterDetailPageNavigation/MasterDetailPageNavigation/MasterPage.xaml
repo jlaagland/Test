@@ -5,20 +5,20 @@
              Padding="0,10,0,0"
              Icon="hamburger.png"
              Title="Master"
-             BackgroundColor="#DDEFF6">
+             BackgroundColor="Transparent">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" Margin="6,6,6,6">
+        <StackLayout VerticalOptions="FillAndExpand" Margin="6,6,6,6" BackgroundColor="#DDEFF6">
             <ContentView VerticalOptions="FillAndExpand"
                          HorizontalOptions="FillAndExpand"
-                         BackgroundColor="Transparent"
-                         Margin="0,0,0,0">
+                         BackgroundColor="White"
+                         Margin="0,12,0,0">
                 <Image Source="iOS-applogo.png" 
                    Grid.Row="1"
                    Margin="0,0,0,0"
                    VerticalOptions="Center"
                    HorizontalOptions="Start"
-                   WidthRequest="128"
-                   HeightRequest="128"
+                   WidthRequest="88"
+                   HeightRequest="88"
                    BackgroundColor="Transparent"/>
             </ContentView>
             <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="#DDEFF6">

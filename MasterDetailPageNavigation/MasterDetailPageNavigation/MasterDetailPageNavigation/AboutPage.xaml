@@ -21,9 +21,9 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="MyMoldingBuddy" FontAttributes="Bold" FontSize="22"/>
+                                <Span Text="MyMoldingBuddy" FontAttributes="Bold" FontSize="18"/>
                                 <Span Text=" "/>
-                                <Span Text="1.0" ForegroundColor="#999999"/>
+                                <Span Text="1.0" ForegroundColor="#999999" FontSize="18"/>
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>
@@ -32,9 +32,9 @@
                     <Label.FormattedText>
                         <FormattedString>
                             <FormattedString.Spans>
-                                <Span Text="This app is developed by" />
+                                <Span Text="This app is developed by" FontSize="16"/>
                                 <Span Text=" "/>
-                                <Span Text="ValuedApps" FontAttributes="Bold" />
+                                <Span Text="ValuedApps" FontAttributes="Bold" FontSize="16"/>
                                 <Span Text="." />
                             </FormattedString.Spans>
                         </FormattedString>
@@ -43,8 +43,9 @@
                 <Button Margin="0,10,0,0"
                         Text="Learn more" 
                         Command="http://www.valuedapps.com"
-                        BackgroundColor="#007BBF"
-                        TextColor="White"/>
+                        BackgroundColor="#00456E"
+                        TextColor="White"
+                        FontSize="15"/>
             </StackLayout>
         </ScrollView>
     </Grid>
