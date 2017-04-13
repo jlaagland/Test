@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>Zu den Apps</value>
+  </data>
+  <data name="AboutValuedApps" xml:space="preserve">
+    <value>Über ValuedApps</value>
+  </data>
+  <data name="Calculations" xml:space="preserve">
+    <value>Berechnungen</value>
+  </data>
+  <data name="Defects" xml:space="preserve">
+    <value>Defekte</value>
+  </data>
+  <data name="Disclaimer" xml:space="preserve">
+    <value>Haftungsausschluss</value>
+  </data>
+  <data name="Materials" xml:space="preserve">
+    <value>Materialien</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Datenschutz</value>
+  </data>
+  <data name="ProcessCards" xml:space="preserve">
+    <value>Prozess-Karten</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>Zulieferer</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Weitere Informationen</value>
+  </data>
+  <data name="ThisAppIsDevelopedBy" xml:space="preserve">
+    <value>Diese app wird von entwickelt.</value>
+  </data>
+</root>

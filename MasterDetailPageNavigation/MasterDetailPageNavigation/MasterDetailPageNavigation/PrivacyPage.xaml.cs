@@ -15,6 +15,10 @@ namespace MasterDetailPageNavigation
         public PrivacyPage()
         {
             InitializeComponent();
+
+            var browser = new WebView();
+            browser.Source = "https://sites.google.com/valuedapps.com/apps/privacy";
+            Content = browser;
         }
     }
 }

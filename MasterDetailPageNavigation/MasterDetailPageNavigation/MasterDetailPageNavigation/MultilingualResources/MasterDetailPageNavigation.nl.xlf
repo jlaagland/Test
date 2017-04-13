@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="nl" original="MASTERDETAILPAGENAVIGATION/RESOURCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="MASTERDETAILPAGENAVIGATION/RESOURCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="AboutTheApp" translate="yes" xml:space="preserve">
+          <source>About The Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Over Apps</target>
+        </trans-unit>
+        <trans-unit id="AboutValuedApps" translate="yes" xml:space="preserve">
+          <source>About ValuedApps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Over ValuedApps</target>
+        </trans-unit>
+        <trans-unit id="Calculations" translate="yes" xml:space="preserve">
+          <source>Calculations</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Berekeningen</target>
+        </trans-unit>
+        <trans-unit id="Defects" translate="yes" xml:space="preserve">
+          <source>Defects</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Defecten</target>
+        </trans-unit>
+        <trans-unit id="Disclaimer" translate="yes" xml:space="preserve">
+          <source>Disclaimer</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Vrijwaring</target>
+        </trans-unit>
+        <trans-unit id="Materials" translate="yes" xml:space="preserve">
+          <source>Materials</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Materialen</target>
+        </trans-unit>
+        <trans-unit id="Privacy" translate="yes" xml:space="preserve">
+          <source>Privacy</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Privacy</target>
+        </trans-unit>
+        <trans-unit id="ProcessCards" translate="yes" xml:space="preserve">
+          <source>Process Cards</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Proces kaarten</target>
+        </trans-unit>
+        <trans-unit id="Suppliers" translate="yes" xml:space="preserve">
+          <source>Suppliers</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Leveranciers</target>
+        </trans-unit>
+        <trans-unit id="LearnMore" translate="yes" xml:space="preserve">
+          <source>Learn more</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Meer informatie</target>
+        </trans-unit>
+        <trans-unit id="ThisAppIsDevelopedBy" translate="yes" xml:space="preserve">
+          <source>This app is developed by</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Deze app is ontwikkeld door</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

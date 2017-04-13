@@ -2,5 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetailPageNavigation.SuppliersPage"
-             Title="Suppliers">
+             xmlns:p="clr-namespace:MasterDetailPageNavigation.Resources"
+             Title="{x:Static p:AppResources.Suppliers}">
 </ContentPage>

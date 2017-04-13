@@ -2,26 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterDetailPageNavigation.MasterPage"
-             Padding="0,10,0,0"
+             Padding="0,0,0,0"
              Icon="hamburger.png"
              Title="Master"
-             BackgroundColor="Transparent">
+             BackgroundColor="#DDEFF6">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" Margin="6,6,6,6" BackgroundColor="#DDEFF6">
+        <StackLayout VerticalOptions="FillAndExpand" Margin="0,0,0,0" BackgroundColor="Transparent">
             <ContentView VerticalOptions="FillAndExpand"
                          HorizontalOptions="FillAndExpand"
                          BackgroundColor="White"
-                         Margin="0,12,0,0">
+                         Margin="0,0,0,0">
                 <Image Source="iOS-applogo.png" 
                    Grid.Row="1"
-                   Margin="0,0,0,0"
+                   Margin="0,6,0,0"
                    VerticalOptions="Center"
                    HorizontalOptions="Start"
                    WidthRequest="88"
                    HeightRequest="88"
                    BackgroundColor="Transparent"/>
             </ContentView>
-            <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="#DDEFF6">
+            <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None" BackgroundColor="Transparent">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell Text="{Binding Title}" 

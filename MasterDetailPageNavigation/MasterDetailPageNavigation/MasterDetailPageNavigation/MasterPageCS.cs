@@ -23,20 +23,6 @@ namespace MasterDetailPageNavigation
                 IconSource = "contacts.png",
                 TargetType = typeof(ContactsPageCS)
             });
-/*
-             masterPageItems.Add(new MasterPageItem
-            {
-                Title = "TodoList",
-                IconSource = "todo.png",
-                TargetType = typeof(TodoListPageCS)
-            });
-            masterPageItems.Add(new MasterPageItem
-            {
-                Title = "Reminders",
-                IconSource = "reminders.png",
-                TargetType = typeof(ReminderPageCS)
-            });
-*/
 
             listView = new ListView
             {

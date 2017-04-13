@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Globalization;
 
 namespace MasterDetailPageNavigation
 {
@@ -22,6 +23,12 @@ namespace MasterDetailPageNavigation
             }
         }
 
+        public interface ILocalize
+        {
+            CultureInfo GetCurrentCultureInfo();
+            void SetLocale(CultureInfo ci);
+        }
+
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageItem;
@@ -31,17 +38,6 @@ namespace MasterDetailPageNavigation
                 masterPage.ListView.SelectedItem = null;
                 IsPresented = false;
             }
-        }
-
-        void NavigationPage_Appearing(object sender, System.EventArgs e)
-        {
-            NaviPage.Effects.Add(new ShadowEffect()
-            {
-                Radius = 15,
-                DistanceX = -20,
-                DistanceY = 0,
-                Color = Color.Black
-            });
         }
     }
 }

@@ -10,12 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace MasterDetailPageNavigation
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MaterialsPage : ContentPage
+    public partial class OnTheWebPage : ContentPage
     {
-        public MaterialsPage()
+        public OnTheWebPage()
         {
             InitializeComponent();
 
+            var browser = new WebView();
+            browser.Source = "https://sites.google.com/valuedapps.com/valuedapps/home";
+            Content = browser;
         }
     }
 }

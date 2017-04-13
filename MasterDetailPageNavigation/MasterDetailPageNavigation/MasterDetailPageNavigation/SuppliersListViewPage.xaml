@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetailPageNavigation.SuppliersListViewPage"
+             xmlns:p="clr-namespace:MasterDetailPageNavigation.Resources"
+             Title="{x:Static p:AppResources.Suppliers}">
+  <ListView ItemsSource="{Binding ItemsGrouped}"
+            ItemTapped="Handle_ItemTapped"
+            ItemSelected="Handle_ItemSelected"
+            HasUnevenRows="true"
+            GroupShortNameBinding="{Binding Key}"
+            IsGroupingEnabled="true"
+            GroupDisplayBinding="{Binding Key}"
+            IsPullToRefreshEnabled="false"
+            CachingStrategy="RecycleElement"
+            IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+            RefreshCommand="{Binding RefreshDataCommand}">
+    <!--Custom View Cells-->
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout Margin="10,0,0,0" Spacing="6" Padding="6">
+            <Label Text="{Binding Text}" 
+                   Style="{DynamicResource ListItemTextStyle}" 
+                   LineBreakMode="WordWrap"
+                   FontSize="13"
+                   TextColor="Black"/>
+<!--
+              <Label Text="{Binding Detail}" 
+                   Style="{DynamicResource ListItemDetailTextStyle}" 
+                   LineBreakMode="WordWrap"
+                   FontSize="11"
+                   TextColor="Gray"/>
+-->
+              <Label Text="{Binding Url}" 
+                   Style="{DynamicResource ListItemDetailTextStyle}" 
+                   LineBreakMode="WordWrap"
+                   FontSize="11"
+                   TextColor="Gray"/>
+          </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+    <ListView.Footer>
+      <StackLayout Margin="10" Spacing="6" Padding="6"
+                   Orientation="Horizontal"
+                   HorizontalOptions="FillAndExpand"
+                   BackgroundColor="#dadada">
+        <Label Text="Productnames used for identification only. Tradenames and trademarkers used are property of their respective owners." 
+               HorizontalTextAlignment="Center" 
+               HorizontalOptions="FillAndExpand"
+               LineBreakMode="WordWrap"
+               Margin="6,6,6,6"
+               TextColor="Gray"
+               FontSize="10"/>
+      </StackLayout>
+    </ListView.Footer>
+  </ListView>
+</ContentPage>
